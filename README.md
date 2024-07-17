@@ -15,11 +15,38 @@ An attempt to step off the grid yields a reward of −0.5 and any move from a wh
 
 Our Experiment Tasks For Part 1 As follows-
 
+1. We will consider a reward discount of γ = 0.95 and a policy which simply moves to one of the four directions with equal probability of 0.25. Estimate the value function for each of the states using-
+   
+   1.1 Solving The System of Bellman Equations Explicitly
+   
+   1.2 Iterative Policy Evaluation
+   
+   1.3 Value Iteration
 
-#Part 2
+3. Determine the optimal policy for the gridworld problem by -
+
+   2.1 Explicitly Solving The Bellman Optimality Equation
+   
+   2.2 Using Policy Iteration With Iterative Policy Evaluation
+   
+   2.3 Policy Improvement With Value Iteration.
+
+# Part 2
 
 For Part 2, we will change the environment a bit by adding some terminal states represented as the black squares. This gives rise to episodes where termination occurs once the agent hits one of the black squares. We will also assume, unlike in Part 1, that any move from a white square to a white square yields a reward of -0.2.
 
 ![image](https://github.com/user-attachments/assets/9ffd4384-a787-4c7d-8c9d-c04cd5eeb0ef)
 
 Our Experiment Tasks For Part 2 As follows-
+
+1. We will use the Monte Carlo method with
+   
+   1.1 Exploring Starts
+
+   1.2 Without Exploring Starts
+
+   But the ϵ-soft approach to learn an optimal policy for this modified gridworld problem. We will use the same discount factor of γ = 0.95 as we have in the Part 1 above. We will start with a policy with equiprobable moves.
+
+2. After that we will use a behaviour policy with equiprobable moves to learn an optimal policy. The dynamics of the world are known exactly, so we can actually compute the importance weights needed for this.
+
+3. Finally, let’s suppose that at every step, we permute the locations of the green and blue squares with probability 0.1, while preserving the rewards and transition structure as before. So we will use policy iteration to determine a suitable policy for this environment.
