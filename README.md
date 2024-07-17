@@ -50,3 +50,6 @@ Our Experiment Tasks For Part 2 As follows-
 2. After that we will use a behaviour policy with equiprobable moves to learn an optimal policy. The dynamics of the world are known exactly, so we can actually compute the importance weights needed for this.
 
 3. Finally, let’s suppose that at every step, we permute the locations of the green and blue squares with probability 0.1, while preserving the rewards and transition structure as before. So we will use policy iteration to determine a suitable policy for this environment.
+
+# How To Run The Code
+
