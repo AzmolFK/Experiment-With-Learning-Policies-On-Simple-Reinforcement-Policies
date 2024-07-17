@@ -82,11 +82,7 @@ To run the code for this assignment, follow the steps below:
 5. **Reproduce the results:**
    - Follow the step-by-step instructions within the notebook to reproduce the results for both Part 1 and Part 2 of the assignment.
 
-### Access the Completed Code on Google Colab
-
-You can also access and run the completed code directly on Google Colab using the following link:
-- [Assignment 2 on Google Colab](https://colab.research.google.com/github/AzmolFK/Experiment-With-Learning-Policies-On-Simple-Reinforcement-Policies/blob/main/Assignment_2_(Part1+Part2).ipynb)
-
----
-
-This completes the instructions for running the code for the Reinforcement Learning assignment.
+## Repository Structure
+- `Assignment 2 RL Report.pdf`: PDF report of the assignment, including the problem statement, methodology, results, analysis, and conclusions for both Part 1 and Part 2.
+- `Assignment_2_(Part1+Part2).ipynb`: Main notebook containing the implementation and analysis of reinforcement learning methods for both Part 1 and Part 2.
+- `README.md`: Instructions for running the notebook and an overview of the assignment.
