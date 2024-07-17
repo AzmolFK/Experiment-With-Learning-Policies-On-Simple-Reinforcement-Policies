@@ -1,7 +1,7 @@
 # Experiment-With-Learning-Policies-On-Simple-Reinforcement-Policies
 Our goal will be to experiment with learning policies on simple reinforcement policies using different methods. This experment will be devided into two parts. 
 
-#Part 1
+# Part 1
 
 We will consider a simple 5 × 5 gridworld problem, described below. This is the simplest abstraction of a reinforcement learning problem that allows us to benchmark and compare various learning algorithms to one another and is known as the ‘gridworld’ environment.
 
