@@ -53,3 +53,40 @@ Our Experiment Tasks For Part 2 As follows-
 
 # How To Run The Code
 
+
+To run the code for this assignment, follow the steps below:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/AzmolFK/Experiment-With-Learning-Policies-On-Simple-Reinforcement-Policies.git
+   ```
+
+2. **Navigate to the repository directory:**
+   ```bash
+   cd Experiment-With-Learning-Policies-On-Simple-Reinforcement-Policies
+   ```
+
+3. **Open the notebook in Google Colab:**
+   - Go to [Google Colab](https://colab.research.google.com/).
+   - Click on the "GitHub" tab.
+   - Enter the repository URL: `https://github.com/AzmolFK/Experiment-With-Learning-Policies-On-Simple-Reinforcement-Policies`.
+   - Select the notebook `Assignment_2_(Part1+Part2).ipynb`.
+
+4. **Run the notebook:**
+   - Once the notebook is open in Google Colab, follow the instructions provided within the notebook to run the code cells.
+   - Ensure you have all the necessary libraries installed. You can install any missing libraries by running:
+     ```python
+     !pip install numpy matplotlib
+     ```
+
+5. **Reproduce the results:**
+   - Follow the step-by-step instructions within the notebook to reproduce the results for both Part 1 and Part 2 of the assignment.
+
+### Access the Completed Code on Google Colab
+
+You can also access and run the completed code directly on Google Colab using the following link:
+- [Assignment 2 on Google Colab](https://colab.research.google.com/github/AzmolFK/Experiment-With-Learning-Policies-On-Simple-Reinforcement-Policies/blob/main/Assignment_2_(Part1+Part2).ipynb)
+
+---
+
+This completes the instructions for running the code for the Reinforcement Learning assignment.
